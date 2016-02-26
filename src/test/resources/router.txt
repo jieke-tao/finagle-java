@@ -1,0 +1,9 @@
+
+#This comment
+#  PATH -- CONTROLLER#ACTION(PARAM)
+
+GET /test/users                     com.xueyufish.finagle.http.UserServiceImpl:getUsers
+
+/test/user/:id                      com.xueyufish.finagle.http.UserServiceImpl:getUser
+
+POST  /test/user/update             com.xueyufish.finagle.http.UserServiceImpl:updateUser
